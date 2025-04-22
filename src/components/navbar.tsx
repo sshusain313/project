@@ -47,7 +47,7 @@ export function Navbar() {
         </nav> */}
 
           <Link
-            href="https://github.com/yourusername/your-repo"
+            href="https://github.com/sshusain313/project"
             target="_blank"
             rel="noopener noreferrer"
             className="group"

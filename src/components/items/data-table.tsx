@@ -73,6 +73,8 @@ export function DataTable<TData, TValue>({
   const generatePaginationNumbers = () => {
     const currentPage = table.getState().pagination.pageIndex + 1
     const totalPages = table.getPageCount()
+
+    
     const maxButtons = 5 // Maximum number of page buttons to show
 
     let startPage = Math.max(1, currentPage - Math.floor(maxButtons / 2))
